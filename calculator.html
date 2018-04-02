@@ -4,11 +4,11 @@
 
 
 function cubo() {
-  var num = document.getElementById("n1");
-  num.value = Math.pow(num.value, 3);
+  var num2 = document.getElementById("n2");
+  num2.value = Math.pow(num2.value, 3);
 
 function square() {
-  var num = document.getElementById("n2");
+  var num = document.getElementById("n1");
   num.value = num.value * num.value;
 
 }
@@ -17,12 +17,10 @@ function square() {
 <body>
   Number:
   <input type="text" id="n1"><p>
-  <input type="text" id="n2"><p>
-
-
-
-  <button onclick="cubo()"> x<sup>3</sup> </button>
   <button onclick="square()"> x<sup>2</sup> </button>
 
+	Number:
+	<input type ="text" id="n2"><p>
+	<button onclick="cubo()"> x<sup>3</sup> </button>
 </body>
 </html>
