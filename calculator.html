@@ -2,22 +2,41 @@
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
 
+<<<<<<< HEAD
 function inverse() {
   var num = document.getElementById("n1");
   num.value = 1/num.value;
 }
 
+=======
+
+function cubo() {
+  var num2 = document.getElementById("n2");
+  num2.value = Math.pow(num2.value, 3);
+}
+
+
+>>>>>>> master_2com
 function square() {
-  var num = document.getElementById("n1");
+  var num = document.getElementById("n3");
   num.value = num.value * num.value;
+
 }
 </script>
 </head>
 <body>
   Number:
   <input type="text" id="n1"><p>
+<<<<<<< HEAD
 
   <button onclick="inverse()"> 1/x </button>
+=======
+>>>>>>> master_2com
+  <input type="text" id="n3"><p>
+
   <button onclick="square()"> x<sup>2</sup> </button>
+
+	<input type ="text" id="n2"><p>
+	<button onclick="cubo()"> x<sup>3</sup> </button>
 </body>
 </html>
